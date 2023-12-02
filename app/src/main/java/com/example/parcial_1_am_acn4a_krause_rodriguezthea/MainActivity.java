@@ -1,12 +1,15 @@
 package com.example.parcial_1_am_acn4a_krause_rodriguezthea;
 
-import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView; // Importar la clase TextView
+import android.widget.TextView;
 import android.widget.Toast;
+import android.content.Intent;
+
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -34,6 +37,8 @@ public class MainActivity extends AppCompatActivity {
                 if (username.equals("admin") && password.equals("admin")) {
 
                     Toast.makeText(MainActivity.this, "Inicio de sesión exitoso", Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(MainActivity.this, HomeActivity.class);
+                    startActivity(intent);
                 } else {
                     textViewError.setVisibility(View.VISIBLE);
                     textViewError.setText("Usuario o contraseña incorrectos");
