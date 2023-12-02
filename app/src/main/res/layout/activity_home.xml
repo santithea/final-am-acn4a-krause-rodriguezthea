@@ -15,7 +15,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"/>
 
-    <!-- Agregar el RecyclerView aquí -->
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerViewProductos"
         android:layout_width="match_parent"
