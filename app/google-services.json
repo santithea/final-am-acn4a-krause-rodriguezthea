@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "581404109969",
+    "project_id": "appmovil-23048",
+    "storage_bucket": "appmovil-23048.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581404109969:android:f49fdf53e5561b3dba2330",
+        "android_client_info": {
+          "package_name": "com.example.parcial_1_am_acn4a_krause_rodriguezthea"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpjkzweMZqwgzd5Vloauw0kUNvtzXkGIs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
